@@ -45,7 +45,7 @@ class Song
     artist_name = filename_format[0]
     song_name = filename_format[1].sub(".mp3", "")
 
-    song = self.new
+    song = self.create
     song.artist_name = artist_name
     song.name = song_name
     song
